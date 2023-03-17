@@ -13,6 +13,6 @@ def add(first_number: int, second_number: int) -> int:
     Returns:
         total number
     """
-    if first_number is not int or second_number is not int:
+    if isinstance(first_number, int) or isinstance(second_number, int):
         raise InvalidArgumentException("An integer is expected")
     return first_number + second_number
