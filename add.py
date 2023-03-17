@@ -6,7 +6,7 @@ from exceptions import InvalidArgumentException
 def add(first_number: int, second_number: int) -> int:
     """Add two numbers togther
     
-    args:
+    Args:
         x: A first number
         y: A second number
 
